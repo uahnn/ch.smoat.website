@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
-                    <img alt="SMOAT" src="/website/web/app/themes/sage/dist/images/smoat_new_trans.png"/>
+                    <img alt="SMOAT" src="app/themes/sage/dist/images/smoat_new_trans.png"/>
                 </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#navbar-primary-collapse" aria-expanded="false">
