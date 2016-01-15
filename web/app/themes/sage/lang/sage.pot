@@ -16,31 +16,31 @@ msgstr "Du benützt einen <strong>veralteten</strong> Browser,Bitte <a href=\"ht
 
 #: functions.php:22
 msgid "Error locating %s for inclusion"
-msgstr ""
+msgstr "Feher beim der lokalisierung von %s für die Inkludierung"
 
 #: index.php:5 search.php:5
 msgid "Sorry, no results were found."
-msgstr ""
+msgstr "Entschuldigung, keine Resultate gefunden."
 
 #: lib/extras.php:31
 msgid "Continued"
-msgstr ""
+msgstr "Fortgeführt"
 
 #: lib/setup.php:30
 msgid "Primary Navigation"
-msgstr ""
+msgstr "Primäre Navigation"
 
 #: lib/setup.php:57
 msgid "Primary"
-msgstr ""
+msgstr "Primär"
 
 #: lib/setup.php:66
 msgid "Footer"
-msgstr ""
+msgstr "Footer"
 
 #: lib/titles.php:13
 msgid "Latest Posts"
-msgstr ""
+msgstr "Neuste Posts"
 
 #: lib/titles.php:18
 msgid "Search Results for %s"
@@ -71,15 +71,15 @@ msgstr ""
 
 #: templates/content-page.php:2 templates/content-single.php:11
 msgid "Pages:"
-msgstr ""
+msgstr "Seiten:"
 
 #: templates/entry-meta.php:2
 msgid "By"
-msgstr ""
+msgstr "durch"
 
 #. Theme Name of the plugin/theme
 msgid "Sage Starter Theme"
-msgstr ""
+msgstr "Smoat Theme"
 
 #. Theme URI of the plugin/theme
 msgid "https://roots.io/sage/"
@@ -93,12 +93,12 @@ msgstr ""
 
 #. Author of the plugin/theme
 msgid "Roots"
-msgstr ""
+msgstr "Robin Schmid"
 
 #. Author URI of the plugin/theme
 msgid "https://roots.io/"
-msgstr ""
+msgstr "http://uahnn.com"
 
 #. Template Name of the plugin/theme
 msgid "Custom Template"
-msgstr ""
+msgstr "Smoat Template"
