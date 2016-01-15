@@ -5,13 +5,14 @@ msgstr ""
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
-msgstr ""
+msgstr "Entschuldigung, aber diese Seite existiert nicht."
 
 #: base.php:14
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "Du benützt einen <strong>veralteten</strong> Browser,Bitte <a href=\"http://"
+"browsehappy.com/\">upgrade deinen Browser</a> um dein Erlebnis zu verbessern."
 
 #: functions.php:22
 msgid "Error locating %s for inclusion"
@@ -43,11 +44,11 @@ msgstr ""
 
 #: lib/titles.php:18
 msgid "Search Results for %s"
-msgstr ""
+msgstr "Suchresultate für %s"
 
 #: lib/titles.php:20
 msgid "Not Found"
-msgstr ""
+msgstr "Nicht gefunden"
 
 #: templates/comments.php:9
 msgctxt "comments title"

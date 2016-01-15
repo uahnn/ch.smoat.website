@@ -16,7 +16,10 @@ nav.navbar {
       background-color: $col-secondary;
     }
     &:hover, &:active, &:focus {
-      background-color: $col-tertiary;
+      background-color: $col-secondary;
+      > span.icon-bar {
+        background-color: $col-primary;
+      }
     }
   }
   div.navbar-collapse {
@@ -80,7 +83,7 @@ nav.navbar {
         display: block;
         margin: 0;
         width: 100%;
-        background-color: $col-secondary;
+        background-color: $col-primary;
         > li {
           display: block;
           width: 100%;
@@ -90,10 +93,13 @@ nav.navbar {
             padding: 20px 0px;
             width: 100%;
             display: block;
-            color: $col-primary;
+            color: $col-secondary;
             &:hover {
               background-color: $col-secondary;
               color: $col-primary;
+              &::before {
+                display: none;
+              }
             }
           }
           ul.sub-menu {

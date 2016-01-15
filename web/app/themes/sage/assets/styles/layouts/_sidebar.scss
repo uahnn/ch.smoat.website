@@ -5,5 +5,12 @@ aside {
     text-transform: uppercase;
     font-weight: 300;
     border-bottom: 1px solid $col-tertiary;
+    margin: 10px 0 5px;
+  }
+  section + section{
+    margin-top: 3em;
+  }
+  @media(max-width: $screen-xs-max){
+    border-top: 3px solid $col-tertiary;
   }
 }

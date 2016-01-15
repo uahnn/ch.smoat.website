@@ -22,6 +22,35 @@ article {
       }
     }
   }
+  .post-author {
+    display: table;
+    margin: 20px 0;
+    padding: 7px;
+    border: 1px solid $col-tertiary;
+    .author-image {
+      width: 12%;
+      vertical-align: top;
+      display: table-cell;
+      img {
+        border-radius: 50%;
+      }
+    }
+    .author-info {
+      width: 88%;
+      vertical-align: top;
+      display: table-cell;
+      padding-left: 20px;
+      .author-name {
+        font-size: 1.2em;
+        text-transform: uppercase;
+      }
+      .author-description {
+        line-height: 1.5em;
+        font-size: 13px;
+        font-weight: 300;
+      }
+    }
+  }
 }
 body.single {
   article {
