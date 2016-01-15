@@ -1,0 +1,108 @@
+nav.navbar {
+  background-color: $col-primary !important;
+  height: 100px;
+  a.navbar-brand {
+    img {
+      height: 80px;
+    }
+  }
+  button.navbar-toggle {
+    position: absolute;
+    top: 26%;
+    right: 1%;
+    border-color: $col-secondary;
+    border-radius: 0;
+    > span.icon-bar {
+      background-color: $col-secondary;
+    }
+    &:hover, &:active, &:focus {
+      background-color: $col-tertiary;
+    }
+  }
+  div.navbar-collapse {
+    float: right;
+    ul#menu-menu-1 {
+      display: block;
+      li {
+        display: block;
+        float: left;
+        height: 100%;
+        box-sizing: border-box;
+        ul {
+          display: none;
+        }
+        a {
+          font-family: $font-robo;
+          color: $col-secondary;
+          font-weight: 300;
+          text-transform: uppercase;
+          display: block;
+          box-sizing: border-box;
+          padding: 65px 10px 15px 10px;
+          font-size: 20px;
+          line-height: 20px;
+          min-width: 80px;
+          text-align: center;
+          position: relative;
+          &:hover {
+            background-color: transparent;
+            &::before {
+              visibility: visible;
+              width: 100%;
+            }
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 5px;
+            bottom: 0;
+            left: 0;
+            background-color: $col-secondary;
+            visibility: hidden;
+            -webkit-transition: all 0.5s ease-in-out 0s;
+            transition: all 0.5s ease-in-out 0s;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: $screen-xs-max) {
+    $mobile-menubullet-height: 2em;
+    .navbar-header {
+      height: 100px;
+    }
+    div.navbar-collapse {
+      float: none;
+      padding: 0;
+      border-top: 2px solid $col-secondary;
+      ul#menu-menu-1 {
+        display: block;
+        margin: 0;
+        width: 100%;
+        background-color: $col-secondary;
+        > li {
+          display: block;
+          width: 100%;
+          float: none;
+          border-bottom: 1px solid $col-primary;
+          a {
+            padding: 20px 0px;
+            width: 100%;
+            display: block;
+            color: $col-primary;
+            &:hover {
+              background-color: $col-secondary;
+              color: $col-primary;
+            }
+          }
+          ul.sub-menu {
+            display: none;
+
+          }
+        }
+      }
+    }
+  }
+
+}

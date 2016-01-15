@@ -1,0 +1,47 @@
+/*********************
+---GLOBAL RESETTERS---
+*********************/
+html, body {
+  height: 100%;
+}
+body {
+  display: table;
+  width: 100%;
+  background-color: $col-snow;
+  color: $col-primary;
+  font-family: $font-robo;
+  div.wrap {
+    padding-top: 100px;
+  }
+}
+footer {
+  display: table-row;
+  height: 1px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.centered-text {
+  text-align: center;
+}
+.text-sm {
+  font-size: $font-size-small;
+}
+a {
+  color: $col-tertiary;
+  &:hover {
+    color: $col-primary;
+  }
+}
+
+main {
+  p {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+div.alert {
+  border-radius: 0px;
+}

@@ -1,0 +1,16 @@
+main.main {
+  color: $col-primary;
+  min-height: 200px;
+  div.page-header {
+    border-bottom: 1px double $col-primary;
+    padding-bottom: 2px;
+    h1 {
+      font-size: $font-size-h1;
+      font-family: $font-robo;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $col-primary;
+      margin-bottom: 2px;
+    }
+  }
+}

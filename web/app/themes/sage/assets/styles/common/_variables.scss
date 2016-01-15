@@ -1,0 +1,31 @@
+// Glyphicons font path
+$icon-font-path: "../fonts/";
+
+// Grid settings
+$main-sm-columns: 12;
+$sidebar-sm-columns: 4;
+
+// Colors
+$col-white: #ffffff;
+$col-snow: #eee;
+$col-andra: #444;
+$col-navi-dark: #000e1e;
+$col-navi-std: #00244a;
+$col-navi-light: #004997;
+$col-beige-light: #f9ffe9;
+$col-desert: #ffcc99;
+$col-desert-dark: #94773e;
+$col-desert-light: #ffe397;
+$col-logo-orange: #ff4200;
+$col-logo-blue: #4235ff;
+$col-beige: #ffeecc;
+$col-aqua: #81A2A2;
+
+$col-primary: $col-navi-std;
+$col-secondary: $col-beige;
+$col-tertiary: $col-aqua;
+
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+$font-robo: 'Roboto Condensed', sans-serif;

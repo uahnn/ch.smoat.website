@@ -1,0 +1,32 @@
+article {
+  border-left:7px solid $col-tertiary;
+  padding: 3px 10px;
+  margin: 15px 0;
+  background-color: $col-white;
+  h2.entry-title {
+    margin: 0;
+    a {
+      color: $col-tertiary;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  p.entry-meta {
+    font-weight: 400;
+    font-size: 12px;
+    a {
+      color: $col-tertiary;
+      &:hover {
+        color: $col-primary;
+      }
+    }
+  }
+}
+body.single {
+  article {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+}

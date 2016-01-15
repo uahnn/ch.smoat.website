@@ -1,0 +1,42 @@
+footer {
+  color: $col-secondary;
+  background-color: $col-primary;
+  div.container {
+    padding: 1em 2em 0.3em 2em;
+    margin-right: auto;
+    margin-left: auto;
+    a {
+      color: $col-secondary;
+      &:hover {
+        text-decoration: none;
+        span {
+          border-bottom: 2px solid $col-secondary;
+          -webkit-transition: border 0.5s ease-in;
+        }
+     }
+    }
+    .socialmedialinks {
+      li {
+        i.fa {
+          vertical-align: middle;
+        }
+      }
+    }
+    .fa-stack {
+      .fa-circle {
+        color: $col-secondary;
+      }
+      .fa-stack-1x {
+        color: $col-primary;
+      }
+    }
+  }
+  @media (max-width: $screen-xs-max) {
+    .col-xs-12 {
+      padding: 1em 1em;
+      & + .col-xs-12 {
+        border-top: 1px solid $col-secondary;
+      }
+    }
+  }
+}
